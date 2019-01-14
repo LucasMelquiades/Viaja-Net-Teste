@@ -1,0 +1,63 @@
+.container {
+margin: 0 auto;
+width: 960px;
+}
+
+body {
+font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+sans-serif;
+background-image: url("image/background-1.jpg");
+background-size: cover;
+}
+
+.bloco {
+	border-color: #CCC #999 #999 #CCC;
+	background-color: #0168c4;
+	margin: 90px auto;
+	padding: 10px;
+	display: table;
+}
+
+.bloco h4, p  {
+	color: #FFFFFF;
+}
+
+.pesquisar {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 290px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
